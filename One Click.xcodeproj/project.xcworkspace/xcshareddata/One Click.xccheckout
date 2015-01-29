@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>64DF4EA1-E04F-4595-AE7D-EA331FF515BF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>One Click</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6BE85A70919B2CF543C6376EDD420682909CF203</key>
+		<string>https://github.com/dwoldenberg1/One-Click.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>One Click.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6BE85A70919B2CF543C6376EDD420682909CF203</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dwoldenberg1/One-Click.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6BE85A70919B2CF543C6376EDD420682909CF203</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6BE85A70919B2CF543C6376EDD420682909CF203</string>
+			<key>IDESourceControlWCCName</key>
+			<string>One%20Click</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "NoStoryboardViewController.h"
+#import "NavigationController.h"
+
 
 @interface AppDelegate ()
 
@@ -19,7 +21,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    self.window.rootViewController = [[NoStoryboardViewController alloc] init];
+    self.window.rootViewController = [[NavigationController alloc] init];
     
     return YES;
 }
