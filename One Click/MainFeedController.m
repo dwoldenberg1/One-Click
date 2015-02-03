@@ -1,18 +1,17 @@
 //
-//  VideoListViewController.m
-//  Harlem Shake
+//  MainFeedController.m
+//  One Click
 //
-//  Created by Jason Fieldman on 2/12/13.
-//  Copyright (c) 2013 Jason Fieldman. All rights reserved.
+//  Created by David Woldenberg on 2/2/15.
+//  Copyright (c) 2015 David Woldenberg. All rights reserved.
 //
 
-#import "VideoListViewController.h"
+#import "MainFeedController.h"
 #import "VideoListTableViewCell.h"
-//#import "VideoInfoViewController.h"
 
-@implementation VideoListViewController
+@implementation MainFeedController
 
-SINGLETON_IMPL(VideoListViewController);
+SINGLETON_IMPL(MainFeedController);
 
 
 - (id) init {

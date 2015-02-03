@@ -1,16 +1,16 @@
 //
-//  VideoModel.m
+//  PostModel.m
 //  Harlem Shake
 //
 //  Created by Jason Fieldman on 2/12/13.
 //  Copyright (c) 2013 Jason Fieldman. All rights reserved.
 //
 
-#import "VideoModel.h"
+#import "PostModel.h"
 
-@implementation VideoModel
+@implementation PostModel
 
-SINGLETON_IMPL(VideoModel);
+SINGLETON_IMPL(PostModel);
 
 
 - (id) init {

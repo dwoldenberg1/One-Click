@@ -1,5 +1,5 @@
 //
-//  VideoListViewController.h
+//  MainFeedController.h
 //  Harlem Shake
 //
 //  Created by Jason Fieldman on 2/12/13.
@@ -10,12 +10,10 @@
 #import <UIKit/UIKit.h>
 #import "SingletonHelper.h"
 
-@interface VideoListViewController : UIViewController  {
+@interface MainFeedController : UIViewController  {
 	UITableView *_tableView;
-	
-	UILabel *_noVideoLabel;
 }
 
-SINGLETON_INTR(VideoListViewController);
+SINGLETON_INTR(MainFeedController);
 
 @end

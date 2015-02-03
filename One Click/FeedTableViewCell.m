@@ -6,9 +6,9 @@
 //  Copyright (c) 2015 David Woldenberg. All rights reserved.
 //
 
-#import "VideoListTableViewCell.h"
+#import "FeedTableViewCell.h"
 
-@implementation VideoListTableViewCell
+@implementation FeedTableViewCell
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     if ((self = [super initWithStyle:style reuseIdentifier:reuseIdentifier])) {
@@ -21,11 +21,11 @@
 	[super setSelected:selected animated:animated];
 }
 
-- (void) setVideoId:(VideoID_t)videoId {
-	_videoId = videoId;
+- (void) setPostId:(PostID)postId {
+	_postId = postId;
 	
 	
-	NSDictionary *vidInfo = [[VideoModel sharedInstance] videoDic:_videoId];
+	NSDictionary *vidInfo = [[VideoModel sharedInstance] videoDic:_postId];
 	
 	self.textLabel.text = [[vidInfo objectForKey:@"title"] length] ? [vidInfo objectForKey:@"title"] : @"Untitled";
 	self.detailTextLabel.text = [[vidInfo objectForKey:@"description"] length] ? [vidInfo objectForKey:@"description"] : @"No description";

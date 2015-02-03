@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "VideoModel.h"
+#import "PostModel.h"
 
 
-@interface VideoListTableViewCell : UITableViewCell
+@interface FeedTableViewCell : UITableViewCell
 
-@property (nonatomic, strong) VideoID_t videoId;
+@property (nonatomic, strong) PostID videoId;
 
 @end
