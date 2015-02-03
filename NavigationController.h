@@ -10,4 +10,6 @@
 
 @interface NavigationController : UINavigationController
 
+@property (strong, nonatomic) UIWindow *window;
+
 @end
