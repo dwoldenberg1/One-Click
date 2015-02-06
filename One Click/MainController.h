@@ -10,4 +10,6 @@
 
 @interface MainController : UIViewController
 
+@property (nonatomic, retain) NSArray *postsArray;
+
 @end
