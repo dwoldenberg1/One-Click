@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		404FFB741CD3EA4200BCD002 /* feed.m in Sources */ = {isa = PBXBuildFile; fileRef = 404FFB731CD3EA4200BCD002 /* feed.m */; };
+		405E267B1AE6DCAF0094ACBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E267A1AE6DCAF0094ACBA /* main.m */; };
+		405E26891AE6DCAF0094ACBA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 405E26871AE6DCAF0094ACBA /* LaunchScreen.xib */; };
+		405E26951AE6DCAF0094ACBA /* One_ClickTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E26941AE6DCAF0094ACBA /* One_ClickTests.m */; };
+		405E26A01AE6DCF60094ACBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E269F1AE6DCF60094ACBA /* AppDelegate.m */; };
+		405E26A51AE6DD150094ACBA /* feedPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E26A21AE6DD150094ACBA /* feedPost.m */; };
+		405E26A61AE6DD150094ACBA /* mainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E26A41AE6DD150094ACBA /* mainController.m */; };
+		405E26A81AE6DD330094ACBA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 405E26A71AE6DD330094ACBA /* Info.plist */; };
+		4073AE131AE82EC000850020 /* settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 4073AE121AE82EC000850020 /* settings.m */; };
+		40DF36241AEEDD1D0089ABA3 /* upload.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DF36231AEEDD1D0089ABA3 /* upload.m */; };
+		40DF36261AF002660089ABA3 /* screwdriver.png in Resources */ = {isa = PBXBuildFile; fileRef = 40DF36251AF002660089ABA3 /* screwdriver.png */; };
+		40DF36281AF002710089ABA3 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 40DF36271AF002710089ABA3 /* share.png */; };
+		83E08DA7EF4BBA4635024C33 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A2EBF58332E89032820352 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		405E268F1AE6DCAF0094ACBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 405E266D1AE6DCAF0094ACBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 405E26741AE6DCAF0094ACBA;
+			remoteInfo = "One Click";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C3BA9EDE4A952E9217F6295 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		404FFB721CD3EA4200BCD002 /* feed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feed.h; sourceTree = "<group>"; };
+		404FFB731CD3EA4200BCD002 /* feed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = feed.m; sourceTree = "<group>"; };
+		405E26751AE6DCAF0094ACBA /* One Click.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "One Click.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		405E267A1AE6DCAF0094ACBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		405E26881AE6DCAF0094ACBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		405E268E1AE6DCAF0094ACBA /* One ClickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "One ClickTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		405E26931AE6DCAF0094ACBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		405E26941AE6DCAF0094ACBA /* One_ClickTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = One_ClickTests.m; sourceTree = "<group>"; };
+		405E269E1AE6DCF60094ACBA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "../../One Clickold/One Click/AppDelegate.h"; sourceTree = "<group>"; };
+		405E269F1AE6DCF60094ACBA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "../../One Clickold/One Click/AppDelegate.m"; sourceTree = "<group>"; };
+		405E26A11AE6DD150094ACBA /* feedPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = feedPost.h; path = "../../One Clickold/One Click/feedPost.h"; sourceTree = "<group>"; };
+		405E26A21AE6DD150094ACBA /* feedPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = feedPost.m; path = "../../One Clickold/One Click/feedPost.m"; sourceTree = "<group>"; };
+		405E26A31AE6DD150094ACBA /* mainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mainController.h; path = "../../One Clickold/One Click/mainController.h"; sourceTree = "<group>"; };
+		405E26A41AE6DD150094ACBA /* mainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = mainController.m; path = "../../One Clickold/One Click/mainController.m"; sourceTree = "<group>"; };
+		405E26A71AE6DD330094ACBA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../One Clickold/One Click/Info.plist"; sourceTree = "<group>"; };
+		4073AE111AE82EC000850020 /* settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settings.h; sourceTree = "<group>"; };
+		4073AE121AE82EC000850020 /* settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = settings.m; sourceTree = "<group>"; };
+		40DF36221AEEDD1D0089ABA3 /* upload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = upload.h; sourceTree = "<group>"; };
+		40DF36231AEEDD1D0089ABA3 /* upload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = upload.m; sourceTree = "<group>"; };
+		40DF36251AF002660089ABA3 /* screwdriver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screwdriver.png; path = "../../../Unarchives/iconbeast-lite-300/iconbeast lite 300 - png/screwdriver.png"; sourceTree = "<group>"; };
+		40DF36271AF002710089ABA3 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = share.png; path = "../../../Unarchives/iconbeast-lite-300/iconbeast lite 300 - png/share.png"; sourceTree = "<group>"; };
+		64C337A1DAC70FEB31845B08 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		92A2EBF58332E89032820352 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		405E26721AE6DCAF0094ACBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E08DA7EF4BBA4635024C33 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		405E268B1AE6DCAF0094ACBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0044D4BBD577E758603B73CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92A2EBF58332E89032820352 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		405E266C1AE6DCAF0094ACBA = {
+			isa = PBXGroup;
+			children = (
+				405E26771AE6DCAF0094ACBA /* One Click */,
+				405E26911AE6DCAF0094ACBA /* One ClickTests */,
+				405E26761AE6DCAF0094ACBA /* Products */,
+				E583AD0D353D73A28176E803 /* Pods */,
+				0044D4BBD577E758603B73CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		405E26761AE6DCAF0094ACBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				405E26751AE6DCAF0094ACBA /* One Click.app */,
+				405E268E1AE6DCAF0094ACBA /* One ClickTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		405E26771AE6DCAF0094ACBA /* One Click */ = {
+			isa = PBXGroup;
+			children = (
+				40DF36271AF002710089ABA3 /* share.png */,
+				40DF36251AF002660089ABA3 /* screwdriver.png */,
+				405E26AB1AE6DD700094ACBA /* Models */,
+				405E26AA1AE6DD580094ACBA /* Views */,
+				405E26A91AE6DD530094ACBA /* Controllers */,
+				405E26871AE6DCAF0094ACBA /* LaunchScreen.xib */,
+				405E269E1AE6DCF60094ACBA /* AppDelegate.h */,
+				405E269F1AE6DCF60094ACBA /* AppDelegate.m */,
+				405E26781AE6DCAF0094ACBA /* Supporting Files */,
+			);
+			path = "One Click";
+			sourceTree = "<group>";
+		};
+		405E26781AE6DCAF0094ACBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				405E26A71AE6DD330094ACBA /* Info.plist */,
+				405E267A1AE6DCAF0094ACBA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		405E26911AE6DCAF0094ACBA /* One ClickTests */ = {
+			isa = PBXGroup;
+			children = (
+				405E26941AE6DCAF0094ACBA /* One_ClickTests.m */,
+				405E26921AE6DCAF0094ACBA /* Supporting Files */,
+			);
+			path = "One ClickTests";
+			sourceTree = "<group>";
+		};
+		405E26921AE6DCAF0094ACBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				405E26931AE6DCAF0094ACBA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		405E26A91AE6DD530094ACBA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				405E26A31AE6DD150094ACBA /* mainController.h */,
+				405E26A41AE6DD150094ACBA /* mainController.m */,
+				4073AE111AE82EC000850020 /* settings.h */,
+				4073AE121AE82EC000850020 /* settings.m */,
+				404FFB721CD3EA4200BCD002 /* feed.h */,
+				404FFB731CD3EA4200BCD002 /* feed.m */,
+				40DF36221AEEDD1D0089ABA3 /* upload.h */,
+				40DF36231AEEDD1D0089ABA3 /* upload.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		405E26AA1AE6DD580094ACBA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				405E26A11AE6DD150094ACBA /* feedPost.h */,
+				405E26A21AE6DD150094ACBA /* feedPost.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		405E26AB1AE6DD700094ACBA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E583AD0D353D73A28176E803 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C3BA9EDE4A952E9217F6295 /* Pods.debug.xcconfig */,
+				64C337A1DAC70FEB31845B08 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		405E26741AE6DCAF0094ACBA /* One Click */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 405E26981AE6DCAF0094ACBA /* Build configuration list for PBXNativeTarget "One Click" */;
+			buildPhases = (
+				9C012BD4B21239C51EDC210C /* Check Pods Manifest.lock */,
+				405E26711AE6DCAF0094ACBA /* Sources */,
+				405E26721AE6DCAF0094ACBA /* Frameworks */,
+				405E26731AE6DCAF0094ACBA /* Resources */,
+				60527FA97A843FB45C083426 /* Copy Pods Resources */,
+				380DA7EDD1CE3869D2116F74 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "One Click";
+			productName = "One Click";
+			productReference = 405E26751AE6DCAF0094ACBA /* One Click.app */;
+			productType = "com.apple.product-type.application";
+		};
+		405E268D1AE6DCAF0094ACBA /* One ClickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 405E269B1AE6DCAF0094ACBA /* Build configuration list for PBXNativeTarget "One ClickTests" */;
+			buildPhases = (
+				405E268A1AE6DCAF0094ACBA /* Sources */,
+				405E268B1AE6DCAF0094ACBA /* Frameworks */,
+				405E268C1AE6DCAF0094ACBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				405E26901AE6DCAF0094ACBA /* PBXTargetDependency */,
+			);
+			name = "One ClickTests";
+			productName = "One ClickTests";
+			productReference = 405E268E1AE6DCAF0094ACBA /* One ClickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		405E266D1AE6DCAF0094ACBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = davidwoldenberg;
+				TargetAttributes = {
+					405E26741AE6DCAF0094ACBA = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					405E268D1AE6DCAF0094ACBA = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 405E26741AE6DCAF0094ACBA;
+					};
+				};
+			};
+			buildConfigurationList = 405E26701AE6DCAF0094ACBA /* Build configuration list for PBXProject "One Click" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 405E266C1AE6DCAF0094ACBA;
+			productRefGroup = 405E26761AE6DCAF0094ACBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				405E26741AE6DCAF0094ACBA /* One Click */,
+				405E268D1AE6DCAF0094ACBA /* One ClickTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		405E26731AE6DCAF0094ACBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405E26A81AE6DD330094ACBA /* Info.plist in Resources */,
+				40DF36261AF002660089ABA3 /* screwdriver.png in Resources */,
+				405E26891AE6DCAF0094ACBA /* LaunchScreen.xib in Resources */,
+				40DF36281AF002710089ABA3 /* share.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		405E268C1AE6DCAF0094ACBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		380DA7EDD1CE3869D2116F74 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60527FA97A843FB45C083426 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C012BD4B21239C51EDC210C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		405E26711AE6DCAF0094ACBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405E26A61AE6DD150094ACBA /* mainController.m in Sources */,
+				405E26A01AE6DCF60094ACBA /* AppDelegate.m in Sources */,
+				405E267B1AE6DCAF0094ACBA /* main.m in Sources */,
+				4073AE131AE82EC000850020 /* settings.m in Sources */,
+				40DF36241AEEDD1D0089ABA3 /* upload.m in Sources */,
+				404FFB741CD3EA4200BCD002 /* feed.m in Sources */,
+				405E26A51AE6DD150094ACBA /* feedPost.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		405E268A1AE6DCAF0094ACBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405E26951AE6DCAF0094ACBA /* One_ClickTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		405E26901AE6DCAF0094ACBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 405E26741AE6DCAF0094ACBA /* One Click */;
+			targetProxy = 405E268F1AE6DCAF0094ACBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		405E26871AE6DCAF0094ACBA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				405E26881AE6DCAF0094ACBA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		405E26961AE6DCAF0094ACBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		405E26971AE6DCAF0094ACBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		405E26991AE6DCAF0094ACBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C3BA9EDE4A952E9217F6295 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "One Click/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		405E269A1AE6DCAF0094ACBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64C337A1DAC70FEB31845B08 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "One Click/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		405E269C1AE6DCAF0094ACBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "One ClickTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/One Click.app/One Click";
+			};
+			name = Debug;
+		};
+		405E269D1AE6DCAF0094ACBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "One ClickTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/One Click.app/One Click";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		405E26701AE6DCAF0094ACBA /* Build configuration list for PBXProject "One Click" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405E26961AE6DCAF0094ACBA /* Debug */,
+				405E26971AE6DCAF0094ACBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		405E26981AE6DCAF0094ACBA /* Build configuration list for PBXNativeTarget "One Click" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405E26991AE6DCAF0094ACBA /* Debug */,
+				405E269A1AE6DCAF0094ACBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		405E269B1AE6DCAF0094ACBA /* Build configuration list for PBXNativeTarget "One ClickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405E269C1AE6DCAF0094ACBA /* Debug */,
+				405E269D1AE6DCAF0094ACBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 405E266D1AE6DCAF0094ACBA /* Project object */;
+}
