@@ -14,7 +14,11 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+<<<<<<< HEAD
+               BlueprintIdentifier = "405E26741AE6DCAF0094ACBA"
+=======
                BlueprintIdentifier = "404035D61A781A8700D75BB3"
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
                BuildableName = "One Click.app"
                BlueprintName = "One Click"
                ReferencedContainer = "container:One Click.xcodeproj">
@@ -28,7 +32,11 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+<<<<<<< HEAD
+               BlueprintIdentifier = "405E268D1AE6DCAF0094ACBA"
+=======
                BlueprintIdentifier = "404035F21A781A8800D75BB3"
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
                BuildableName = "One ClickTests.xctest"
                BlueprintName = "One ClickTests"
                ReferencedContainer = "container:One Click.xcodeproj">
@@ -46,7 +54,11 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
+<<<<<<< HEAD
+               BlueprintIdentifier = "405E268D1AE6DCAF0094ACBA"
+=======
                BlueprintIdentifier = "404035F21A781A8800D75BB3"
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
                BuildableName = "One ClickTests.xctest"
                BlueprintName = "One ClickTests"
                ReferencedContainer = "container:One Click.xcodeproj">
@@ -56,7 +68,11 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
+            BlueprintIdentifier = "405E26741AE6DCAF0094ACBA"
+=======
             BlueprintIdentifier = "404035D61A781A8700D75BB3"
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
             BuildableName = "One Click.app"
             BlueprintName = "One Click"
             ReferencedContainer = "container:One Click.xcodeproj">
@@ -75,7 +91,11 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
+            BlueprintIdentifier = "405E26741AE6DCAF0094ACBA"
+=======
             BlueprintIdentifier = "404035D61A781A8700D75BB3"
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
             BuildableName = "One Click.app"
             BlueprintName = "One Click"
             ReferencedContainer = "container:One Click.xcodeproj">
@@ -93,7 +113,11 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
+            BlueprintIdentifier = "405E26741AE6DCAF0094ACBA"
+=======
             BlueprintIdentifier = "404035D61A781A8700D75BB3"
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
             BuildableName = "One Click.app"
             BlueprintName = "One Click"
             ReferencedContainer = "container:One Click.xcodeproj">

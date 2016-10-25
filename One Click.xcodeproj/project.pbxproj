@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
+		404FFB741CD3EA4200BCD002 /* feed.m in Sources */ = {isa = PBXBuildFile; fileRef = 404FFB731CD3EA4200BCD002 /* feed.m */; };
+		405E267B1AE6DCAF0094ACBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E267A1AE6DCAF0094ACBA /* main.m */; };
+		405E26891AE6DCAF0094ACBA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 405E26871AE6DCAF0094ACBA /* LaunchScreen.xib */; };
+		405E26951AE6DCAF0094ACBA /* One_ClickTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E26941AE6DCAF0094ACBA /* One_ClickTests.m */; };
+		405E26A01AE6DCF60094ACBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E269F1AE6DCF60094ACBA /* AppDelegate.m */; };
+		405E26A51AE6DD150094ACBA /* feedPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E26A21AE6DD150094ACBA /* feedPost.m */; };
+		405E26A61AE6DD150094ACBA /* mainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E26A41AE6DD150094ACBA /* mainController.m */; };
+		405E26A81AE6DD330094ACBA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 405E26A71AE6DD330094ACBA /* Info.plist */; };
+		4073AE131AE82EC000850020 /* settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 4073AE121AE82EC000850020 /* settings.m */; };
+		40DF36241AEEDD1D0089ABA3 /* upload.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DF36231AEEDD1D0089ABA3 /* upload.m */; };
+		40DF36261AF002660089ABA3 /* screwdriver.png in Resources */ = {isa = PBXBuildFile; fileRef = 40DF36251AF002660089ABA3 /* screwdriver.png */; };
+		40DF36281AF002710089ABA3 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 40DF36271AF002710089ABA3 /* share.png */; };
+		83E08DA7EF4BBA4635024C33 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A2EBF58332E89032820352 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		405E268F1AE6DCAF0094ACBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 405E266D1AE6DCAF0094ACBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 405E26741AE6DCAF0094ACBA;
+=======
 		4036EC4E1A814C880035C6C8 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4036EC4D1A814C880035C6C8 /* MainController.m */; };
 		404035DD1A781A8700D75BB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 404035DC1A781A8700D75BB3 /* main.m */; };
 		404035E01A781A8700D75BB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 404035DF1A781A8700D75BB3 /* AppDelegate.m */; };
@@ -22,11 +45,50 @@
 			containerPortal = 404035CF1A781A8700D75BB3 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 404035D61A781A8700D75BB3;
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
 			remoteInfo = "One Click";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
+		3C3BA9EDE4A952E9217F6295 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		404FFB721CD3EA4200BCD002 /* feed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feed.h; sourceTree = "<group>"; };
+		404FFB731CD3EA4200BCD002 /* feed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = feed.m; sourceTree = "<group>"; };
+		405E26751AE6DCAF0094ACBA /* One Click.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "One Click.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		405E267A1AE6DCAF0094ACBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		405E26881AE6DCAF0094ACBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		405E268E1AE6DCAF0094ACBA /* One ClickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "One ClickTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		405E26931AE6DCAF0094ACBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		405E26941AE6DCAF0094ACBA /* One_ClickTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = One_ClickTests.m; sourceTree = "<group>"; };
+		405E269E1AE6DCF60094ACBA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "../../One Clickold/One Click/AppDelegate.h"; sourceTree = "<group>"; };
+		405E269F1AE6DCF60094ACBA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "../../One Clickold/One Click/AppDelegate.m"; sourceTree = "<group>"; };
+		405E26A11AE6DD150094ACBA /* feedPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = feedPost.h; path = "../../One Clickold/One Click/feedPost.h"; sourceTree = "<group>"; };
+		405E26A21AE6DD150094ACBA /* feedPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = feedPost.m; path = "../../One Clickold/One Click/feedPost.m"; sourceTree = "<group>"; };
+		405E26A31AE6DD150094ACBA /* mainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mainController.h; path = "../../One Clickold/One Click/mainController.h"; sourceTree = "<group>"; };
+		405E26A41AE6DD150094ACBA /* mainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = mainController.m; path = "../../One Clickold/One Click/mainController.m"; sourceTree = "<group>"; };
+		405E26A71AE6DD330094ACBA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../One Clickold/One Click/Info.plist"; sourceTree = "<group>"; };
+		4073AE111AE82EC000850020 /* settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settings.h; sourceTree = "<group>"; };
+		4073AE121AE82EC000850020 /* settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = settings.m; sourceTree = "<group>"; };
+		40DF36221AEEDD1D0089ABA3 /* upload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = upload.h; sourceTree = "<group>"; };
+		40DF36231AEEDD1D0089ABA3 /* upload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = upload.m; sourceTree = "<group>"; };
+		40DF36251AF002660089ABA3 /* screwdriver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screwdriver.png; path = "../../../Unarchives/iconbeast-lite-300/iconbeast lite 300 - png/screwdriver.png"; sourceTree = "<group>"; };
+		40DF36271AF002710089ABA3 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = share.png; path = "../../../Unarchives/iconbeast-lite-300/iconbeast lite 300 - png/share.png"; sourceTree = "<group>"; };
+		64C337A1DAC70FEB31845B08 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		92A2EBF58332E89032820352 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		405E26721AE6DCAF0094ACBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E08DA7EF4BBA4635024C33 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		405E268B1AE6DCAF0094ACBA /* Frameworks */ = {
+=======
 		4036EC4C1A814C880035C6C8 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
 		4036EC4D1A814C880035C6C8 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
 		404035D71A781A8700D75BB3 /* One Click.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "One Click.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +113,7 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		404035F01A781A8800D75BB3 /* Frameworks */ = {
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,6 +123,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
+		0044D4BBD577E758603B73CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92A2EBF58332E89032820352 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		405E266C1AE6DCAF0094ACBA = {
+			isa = PBXGroup;
+			children = (
+				405E26771AE6DCAF0094ACBA /* One Click */,
+				405E26911AE6DCAF0094ACBA /* One ClickTests */,
+				405E26761AE6DCAF0094ACBA /* Products */,
+				E583AD0D353D73A28176E803 /* Pods */,
+				0044D4BBD577E758603B73CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		405E26761AE6DCAF0094ACBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				405E26751AE6DCAF0094ACBA /* One Click.app */,
+				405E268E1AE6DCAF0094ACBA /* One ClickTests.xctest */,
+=======
 		404035CE1A781A8700D75BB3 = {
 			isa = PBXGroup;
 			children = (
@@ -74,10 +163,25 @@
 			children = (
 				404035D71A781A8700D75BB3 /* One Click.app */,
 				404035F31A781A8800D75BB3 /* One ClickTests.xctest */,
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+		405E26771AE6DCAF0094ACBA /* One Click */ = {
+			isa = PBXGroup;
+			children = (
+				40DF36271AF002710089ABA3 /* share.png */,
+				40DF36251AF002660089ABA3 /* screwdriver.png */,
+				405E26AB1AE6DD700094ACBA /* Models */,
+				405E26AA1AE6DD580094ACBA /* Views */,
+				405E26A91AE6DD530094ACBA /* Controllers */,
+				405E26871AE6DCAF0094ACBA /* LaunchScreen.xib */,
+				405E269E1AE6DCF60094ACBA /* AppDelegate.h */,
+				405E269F1AE6DCF60094ACBA /* AppDelegate.m */,
+				405E26781AE6DCAF0094ACBA /* Supporting Files */,
+=======
 		404035D91A781A8700D75BB3 /* One Click */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,36 +192,87 @@
 				404035E71A781A8700D75BB3 /* Main.storyboard */,
 				404035EA1A781A8700D75BB3 /* Images.xcassets */,
 				404035DA1A781A8700D75BB3 /* Supporting Files */,
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
 			);
 			path = "One Click";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+		405E26781AE6DCAF0094ACBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				405E26A71AE6DD330094ACBA /* Info.plist */,
+				405E267A1AE6DCAF0094ACBA /* main.m */,
+=======
 		404035DA1A781A8700D75BB3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				404035DB1A781A8700D75BB3 /* Info.plist */,
 				404035DC1A781A8700D75BB3 /* main.m */,
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+		405E26911AE6DCAF0094ACBA /* One ClickTests */ = {
+			isa = PBXGroup;
+			children = (
+				405E26941AE6DCAF0094ACBA /* One_ClickTests.m */,
+				405E26921AE6DCAF0094ACBA /* Supporting Files */,
+=======
 		404035F61A781A8800D75BB3 /* One ClickTests */ = {
 			isa = PBXGroup;
 			children = (
 				404035F91A781A8800D75BB3 /* One_ClickTests.m */,
 				404035F71A781A8800D75BB3 /* Supporting Files */,
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
 			);
 			path = "One ClickTests";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+		405E26921AE6DCAF0094ACBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				405E26931AE6DCAF0094ACBA /* Info.plist */,
+=======
 		404035F71A781A8800D75BB3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				404035F81A781A8800D75BB3 /* Info.plist */,
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+		405E26A91AE6DD530094ACBA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				405E26A31AE6DD150094ACBA /* mainController.h */,
+				405E26A41AE6DD150094ACBA /* mainController.m */,
+				4073AE111AE82EC000850020 /* settings.h */,
+				4073AE121AE82EC000850020 /* settings.m */,
+				404FFB721CD3EA4200BCD002 /* feed.h */,
+				404FFB731CD3EA4200BCD002 /* feed.m */,
+				40DF36221AEEDD1D0089ABA3 /* upload.h */,
+				40DF36231AEEDD1D0089ABA3 /* upload.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		405E26AA1AE6DD580094ACBA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				405E26A11AE6DD150094ACBA /* feedPost.h */,
+				405E26A21AE6DD150094ACBA /* feedPost.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		405E26AB1AE6DD700094ACBA /* Models */ = {
+=======
 		40E8E4711A800AF300D64144 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,12 +294,22 @@
 			sourceTree = "<group>";
 		};
 		40E8E4731A800B1300D64144 /* Models */ = {
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
 			isa = PBXGroup;
 			children = (
 			);
 			name = Models;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+		E583AD0D353D73A28176E803 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C3BA9EDE4A952E9217F6295 /* Pods.debug.xcconfig */,
+				64C337A1DAC70FEB31845B08 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+=======
 		40E8E4741A800B1A00D64144 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,11 +322,24 @@
 			children = (
 			);
 			name = Helpers;
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+<<<<<<< HEAD
+		405E26741AE6DCAF0094ACBA /* One Click */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 405E26981AE6DCAF0094ACBA /* Build configuration list for PBXNativeTarget "One Click" */;
+			buildPhases = (
+				9C012BD4B21239C51EDC210C /* Check Pods Manifest.lock */,
+				405E26711AE6DCAF0094ACBA /* Sources */,
+				405E26721AE6DCAF0094ACBA /* Frameworks */,
+				405E26731AE6DCAF0094ACBA /* Resources */,
+				60527FA97A843FB45C083426 /* Copy Pods Resources */,
+				380DA7EDD1CE3869D2116F74 /* Embed Pods Frameworks */,
+=======
 		404035D61A781A8700D75BB3 /* One Click */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 404035FD1A781A8800D75BB3 /* Build configuration list for PBXNativeTarget "One Click" */;
@@ -169,6 +347,7 @@
 				404035D31A781A8700D75BB3 /* Sources */,
 				404035D41A781A8700D75BB3 /* Frameworks */,
 				404035D51A781A8700D75BB3 /* Resources */,
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
 			);
 			buildRules = (
 			);
@@ -176,6 +355,18 @@
 			);
 			name = "One Click";
 			productName = "One Click";
+<<<<<<< HEAD
+			productReference = 405E26751AE6DCAF0094ACBA /* One Click.app */;
+			productType = "com.apple.product-type.application";
+		};
+		405E268D1AE6DCAF0094ACBA /* One ClickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 405E269B1AE6DCAF0094ACBA /* Build configuration list for PBXNativeTarget "One ClickTests" */;
+			buildPhases = (
+				405E268A1AE6DCAF0094ACBA /* Sources */,
+				405E268B1AE6DCAF0094ACBA /* Frameworks */,
+				405E268C1AE6DCAF0094ACBA /* Resources */,
+=======
 			productReference = 404035D71A781A8700D75BB3 /* One Click.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -186,26 +377,51 @@
 				404035EF1A781A8800D75BB3 /* Sources */,
 				404035F01A781A8800D75BB3 /* Frameworks */,
 				404035F11A781A8800D75BB3 /* Resources */,
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
 			);
 			buildRules = (
 			);
 			dependencies = (
+<<<<<<< HEAD
+				405E26901AE6DCAF0094ACBA /* PBXTargetDependency */,
+			);
+			name = "One ClickTests";
+			productName = "One ClickTests";
+			productReference = 405E268E1AE6DCAF0094ACBA /* One ClickTests.xctest */;
+=======
 				404035F51A781A8800D75BB3 /* PBXTargetDependency */,
 			);
 			name = "One ClickTests";
 			productName = "One ClickTests";
 			productReference = 404035F31A781A8800D75BB3 /* One ClickTests.xctest */;
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
+<<<<<<< HEAD
+		405E266D1AE6DCAF0094ACBA /* Project object */ = {
+=======
 		404035CF1A781A8700D75BB3 /* Project object */ = {
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = davidwoldenberg;
 				TargetAttributes = {
+<<<<<<< HEAD
+					405E26741AE6DCAF0094ACBA = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					405E268D1AE6DCAF0094ACBA = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 405E26741AE6DCAF0094ACBA;
+					};
+				};
+			};
+			buildConfigurationList = 405E26701AE6DCAF0094ACBA /* Build configuration list for PBXProject "One Click" */;
+=======
 					404035D61A781A8700D75BB3 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
@@ -216,6 +432,7 @@
 				};
 			};
 			buildConfigurationList = 404035D21A781A8700D75BB3 /* Build configuration list for PBXProject "One Click" */;
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,6 +440,15 @@
 				en,
 				Base,
 			);
+<<<<<<< HEAD
+			mainGroup = 405E266C1AE6DCAF0094ACBA;
+			productRefGroup = 405E26761AE6DCAF0094ACBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				405E26741AE6DCAF0094ACBA /* One Click */,
+				405E268D1AE6DCAF0094ACBA /* One ClickTests */,
+=======
 			mainGroup = 404035CE1A781A8700D75BB3;
 			productRefGroup = 404035D81A781A8700D75BB3 /* Products */;
 			projectDirPath = "";
@@ -230,11 +456,26 @@
 			targets = (
 				404035D61A781A8700D75BB3 /* One Click */,
 				404035F21A781A8800D75BB3 /* One ClickTests */,
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+<<<<<<< HEAD
+		405E26731AE6DCAF0094ACBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405E26A81AE6DD330094ACBA /* Info.plist in Resources */,
+				40DF36261AF002660089ABA3 /* screwdriver.png in Resources */,
+				405E26891AE6DCAF0094ACBA /* LaunchScreen.xib in Resources */,
+				40DF36281AF002710089ABA3 /* share.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		405E268C1AE6DCAF0094ACBA /* Resources */ = {
+=======
 		404035D51A781A8700D75BB3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -246,6 +487,7 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		404035F11A781A8800D75BB3 /* Resources */ = {
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,6 +496,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+<<<<<<< HEAD
+/* Begin PBXShellScriptBuildPhase section */
+		380DA7EDD1CE3869D2116F74 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60527FA97A843FB45C083426 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C012BD4B21239C51EDC210C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		405E26711AE6DCAF0094ACBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405E26A61AE6DD150094ACBA /* mainController.m in Sources */,
+				405E26A01AE6DCF60094ACBA /* AppDelegate.m in Sources */,
+				405E267B1AE6DCAF0094ACBA /* main.m in Sources */,
+				4073AE131AE82EC000850020 /* settings.m in Sources */,
+				40DF36241AEEDD1D0089ABA3 /* upload.m in Sources */,
+				404FFB741CD3EA4200BCD002 /* feed.m in Sources */,
+				405E26A51AE6DD150094ACBA /* feedPost.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		405E268A1AE6DCAF0094ACBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405E26951AE6DCAF0094ACBA /* One_ClickTests.m in Sources */,
+=======
 /* Begin PBXSourcesBuildPhase section */
 		404035D31A781A8700D75BB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -270,20 +582,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				404035FA1A781A8800D75BB3 /* One_ClickTests.m in Sources */,
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+<<<<<<< HEAD
+		405E26901AE6DCAF0094ACBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 405E26741AE6DCAF0094ACBA /* One Click */;
+			targetProxy = 405E268F1AE6DCAF0094ACBA /* PBXContainerItemProxy */;
+=======
 		404035F51A781A8800D75BB3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 404035D61A781A8700D75BB3 /* One Click */;
 			targetProxy = 404035F41A781A8800D75BB3 /* PBXContainerItemProxy */;
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+<<<<<<< HEAD
+		405E26871AE6DCAF0094ACBA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				405E26881AE6DCAF0094ACBA /* Base */,
+=======
 		404035E71A781A8700D75BB3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,6 +622,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				404035ED1A781A8700D75BB3 /* Base */,
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -303,7 +630,11 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+<<<<<<< HEAD
+		405E26961AE6DCAF0094ACBA /* Debug */ = {
+=======
 		404035FB1A781A8800D75BB3 /* Debug */ = {
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -344,7 +675,11 @@
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
+		405E26971AE6DCAF0094ACBA /* Release */ = {
+=======
 		404035FC1A781A8800D75BB3 /* Release */ = {
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -379,8 +714,14 @@
 			};
 			name = Release;
 		};
+<<<<<<< HEAD
+		405E26991AE6DCAF0094ACBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C3BA9EDE4A952E9217F6295 /* Pods.debug.xcconfig */;
+=======
 		404035FE1A781A8800D75BB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "One Click/Info.plist";
@@ -389,8 +730,14 @@
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
+		405E269A1AE6DCAF0094ACBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64C337A1DAC70FEB31845B08 /* Pods.release.xcconfig */;
+=======
 		404035FF1A781A8800D75BB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "One Click/Info.plist";
@@ -399,7 +746,11 @@
 			};
 			name = Release;
 		};
+<<<<<<< HEAD
+		405E269C1AE6DCAF0094ACBA /* Debug */ = {
+=======
 		404036011A781A8800D75BB3 /* Debug */ = {
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,7 +769,11 @@
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
+		405E269D1AE6DCAF0094ACBA /* Release */ = {
+=======
 		404036021A781A8800D75BB3 /* Release */ = {
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -436,34 +791,62 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+<<<<<<< HEAD
+		405E26701AE6DCAF0094ACBA /* Build configuration list for PBXProject "One Click" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405E26961AE6DCAF0094ACBA /* Debug */,
+				405E26971AE6DCAF0094ACBA /* Release */,
+=======
 		404035D21A781A8700D75BB3 /* Build configuration list for PBXProject "One Click" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				404035FB1A781A8800D75BB3 /* Debug */,
 				404035FC1A781A8800D75BB3 /* Release */,
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
+		405E26981AE6DCAF0094ACBA /* Build configuration list for PBXNativeTarget "One Click" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405E26991AE6DCAF0094ACBA /* Debug */,
+				405E269A1AE6DCAF0094ACBA /* Release */,
+=======
 		404035FD1A781A8800D75BB3 /* Build configuration list for PBXNativeTarget "One Click" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				404035FE1A781A8800D75BB3 /* Debug */,
 				404035FF1A781A8800D75BB3 /* Release */,
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
+		405E269B1AE6DCAF0094ACBA /* Build configuration list for PBXNativeTarget "One ClickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405E269C1AE6DCAF0094ACBA /* Debug */,
+				405E269D1AE6DCAF0094ACBA /* Release */,
+=======
 		404036001A781A8800D75BB3 /* Build configuration list for PBXNativeTarget "One ClickTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				404036011A781A8800D75BB3 /* Debug */,
 				404036021A781A8800D75BB3 /* Release */,
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
+<<<<<<< HEAD
+	rootObject = 405E266D1AE6DCAF0094ACBA /* Project object */;
+=======
 	rootObject = 404035CF1A781A8700D75BB3 /* Project object */;
+>>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
 }
