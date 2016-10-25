@@ -1,1 +1,0 @@
-../../../ANSnapchatAPI/Sources/SCFetcher.h

@@ -1,1 +1,0 @@
-../../../ANSnapchatAPI/Sources/Data/SCSnap.h

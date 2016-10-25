@@ -2,19 +2,12 @@
 //  AppDelegate.m
 //  One Click
 //
-<<<<<<< HEAD
-//  Created by David Woldenberg on 4/21/15.
-=======
 //  Created by David Woldenberg on 1/27/15.
->>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
 //  Copyright (c) 2015 davidwoldenberg. All rights reserved.
 //
 
 #import "AppDelegate.h"
-<<<<<<< HEAD
-=======
 #import "MainController.h"
->>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
 
 @interface AppDelegate ()
 
@@ -25,9 +18,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-<<<<<<< HEAD
-    return YES;
-=======
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
@@ -39,7 +29,6 @@
     [self.window makeKeyAndVisible];
     return YES;
     
->>>>>>> ee01d12988816c0010ed61c2e6fc05f90065535a
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

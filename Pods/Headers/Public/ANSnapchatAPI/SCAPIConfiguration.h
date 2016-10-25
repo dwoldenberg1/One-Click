@@ -1,1 +1,0 @@
-../../../ANSnapchatAPI/Sources/Internal/SCAPIConfiguration.h
